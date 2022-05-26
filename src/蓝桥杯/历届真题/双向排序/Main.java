@@ -36,6 +36,5 @@ public class Main {
         for (int i = 0; i < ints.length; i++) {
             System.out.print(ints[i]+" ");
         }
-        System.out.println();
     }
 }
