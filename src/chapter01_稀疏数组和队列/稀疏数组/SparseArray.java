@@ -1,4 +1,4 @@
-package chapter03_稀疏数组和队列.稀疏数组;
+package chapter01_稀疏数组和队列.稀疏数组;
 
 /**
  * @author pengjiacheng
@@ -8,6 +8,7 @@ package chapter03_稀疏数组和队列.稀疏数组;
 public class SparseArray {
     public static void main(String[] args) {
         //创建原始的二维数组
+        // 0：表示没有棋子，1表示黑子，2表示篮子
         int[][] array1 = new int[11][11];
         array1[1][2] = 2;
         array1[2][3] = 1;
@@ -51,7 +52,7 @@ public class SparseArray {
             }
         }
 
-        //稀疏数组输出
+        //4. 稀疏数组输出
         System.out.println("转换得到的稀疏数组是：");
         for (int i = 0; i < sparseArr.length; i++) {
             for (int j = 0; j < 3; j++) {
@@ -69,6 +70,7 @@ public class SparseArray {
             array2[sparseArr[i][0]][sparseArr[i][1]] = sparseArr[i][2];
         }
 
+        // 3.输出恢复后的二维数组
         System.out.println("恢复的二维数组是：");
         for (int[] row : array2) {
             for (int data : row) {

@@ -1,4 +1,4 @@
-package chapter03_稀疏数组和队列.数组模拟队列;
+package chapter01_稀疏数组和队列.数组模拟队列;
 
 /**
  * @author pengjiacheng
@@ -16,7 +16,7 @@ public class ArrayQueue {
         this.maxSize = maxSize;
         arr = new int[maxSize];
         front = -1;//指向队列头前一个位置
-        rear = -1;//指向队列尾的数据
+        rear = -1;//指向队列尾的数据(即队列最后一个数据)
     }
 
     //判断队列是否满

@@ -1,4 +1,4 @@
-package chapter03_稀疏数组和队列.数组模拟队列;
+package chapter01_稀疏数组和队列.数组模拟队列;
 
 import java.util.Scanner;
 

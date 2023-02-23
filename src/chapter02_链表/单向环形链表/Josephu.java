@@ -1,4 +1,4 @@
-package chapter04_链表.单向环形链表;
+package chapter02_链表.单向环形链表;
 
 /**
  * @author pengjiacheng

@@ -1,4 +1,4 @@
-package chapter03_稀疏数组和队列.数组模拟栈;
+package chapter03_栈.数组模拟栈;
 
 /**
  * @author pengjiacheng

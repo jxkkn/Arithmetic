@@ -1,4 +1,4 @@
-package chapter04_链表.单链表;
+package chapter02_链表.单链表;
 
 import java.util.Stack;
 
@@ -16,9 +16,7 @@ public class SingleLinkedList {
     }
 
     //添加节点到单链表
-    /*
-    当不考虑编号时，先找到尾节点，将尾结点的next指向新的结点
-     */
+    /* 当不考虑编号时，先找到尾节点，将尾结点的next指向新的结点 */
     public void add(HeroNode heroNode){
         //创建一个辅助变量temp
         HeroNode temp = head;
@@ -30,14 +28,11 @@ public class SingleLinkedList {
             }
             temp = temp.next;
         }
-
         temp.next = heroNode;
     }
 
     //添加节点到单链表
-    /*
-    当考虑编号时
-     */
+    /* 当考虑编号时 */
     public void addByOrder(HeroNode heroNode){
         //创建一个辅助变量temp
         HeroNode temp = head;

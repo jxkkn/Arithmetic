@@ -1,4 +1,4 @@
-package chapter04_链表.单链表;
+package chapter02_链表.单链表;
 
 /**
  * @author pengjiacheng

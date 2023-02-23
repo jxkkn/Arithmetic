@@ -1,15 +1,17 @@
-package chapter04_链表.单链表;
+package chapter02_链表.双向链表;
 
 /**
  * @author pengjiacheng
- * @create 2022-03-26 15:41
- * @description: 单链表结点
+ * @create 2022-04-19 21:42
+ * @description:
  */
 public class HeroNode {
     public int id;
     public String name;
     public String nickName;//昵称
-    public HeroNode next;
+    public HeroNode next;//指向下一节点
+    public HeroNode pre;//指向前一结点
+
 
     public HeroNode(int id, String name, String nickName) {
         this.id = id;
